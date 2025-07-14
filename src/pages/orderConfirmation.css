@@ -1,0 +1,32 @@
+.order-confirmation {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f0fff4;
+    color: #2e7d32;
+  }
+  
+  .order-confirmation h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .order-confirmation h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .go-home-button {
+    background-color: #43a047;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .go-home-button:hover {
+    background-color: #2e7d32;
+  }
+  

@@ -1,0 +1,70 @@
+/* src/components/ProductCard.css */
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    color: #2e7d32;
+  }
+  
+  /* .product-card button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+  
+  /* .product-card button:hover {
+    background-color: #2e7d32;
+  } */
+
+  .img-style{
+    height: 110px;
+    width: 140px;
+}
+
+.remove-btn {
+    position: relative;
+    top: 112px;
+    left: 17px;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-style{
+  
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 134px;
+    height: 38px;
+    position: relative;
+    right: 7px;
+}
+.add-style-selected{
+  
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: rgb(152, 152, 45);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 134px;
+    height: 38px;
+    position: relative;
+    right: 7px;
+}
