@@ -53,18 +53,25 @@ const items = {
 };
 function Home() {
   const [selectedCategory, setSelectedCategory] = useState('Vegetables');
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const filteredItems = items[selectedCategory].filter((item) =>
+    item.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <div className="home-page">
       <Navbar
         selectedCategory={selectedCategory}
         onSelectCategory={setSelectedCategory}
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
       />
 
       <div className="product-list">
-        {items[selectedCategory].map((item) => (
+        {filteredItems.map((item) => (
           <ProductCard
-            key={item}
+            key={item.name}
             name={item.name}
             price={item.price}
             category={selectedCategory}
